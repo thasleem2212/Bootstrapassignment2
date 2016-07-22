@@ -1,0 +1,315 @@
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+#features {
+	text-align: center;
+	padding-top: 70px;
+}
+
+#features img {
+	margin: 0 0 20px;
+}
+
+#inputMessage {
+	margin-bottom: 15px;
+}
+
+
+.headnav{
+	height: 10%;
+}
+
+#main{
+	padding-bottom: 10%;
+}
+
+footer {
+	background: #333;
+	color: #eee;
+	font-size: 11px;
+	padding: 20px;
+	}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+body {
+	background-color: darksalmon;
+}
+.well{
+	background-color: #444;
+}
+
+.well .page-header {
+	margin-top: 0;
+}
+
+.well .page-header h1 {
+	margin-top: 0;
+}
+
+ul.unstyled {
+	list-style: none;
+	padding: 0;
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+.image img{
+	height: 55px;
+}
+#searchInput {
+	width: 200px;
+	margin-top: 18px;
+}
+
+.navbar-brand {
+	padding: 10px 12px;
+}
+
+.navbar {
+  background-color: #444;
+}
+  /*.my-nav{
+    padding-top:18px;
+  }*/
+
+.my-nav li a:hover {
+  color:#ec9893;
+}
+.my-nav li a {
+  font-size: 18px;
+  color: #eee;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.my-nav .active a {
+	background-color: #ec9893;
+}
+
+.my-menu {
+	background-color: #232323;
+}
+.my-menu li a:hover {
+	background-color: #ec9893;
+}
+
+.my-menu li a {
+	color: #ec9893;
+}
+/*
+.my-nav .dropdown a.caret{
+  border-top-color: #ec9893;
+border-bottom-color: #d0b5b5;
+}*/
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+/*#myCarousel {
+	margin-top: 125px;
+	padding-top: 15%;
+}*/
+
+.car-caption {
+	font-size: 24px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.car-caption h4 {
+	font-size: 32px;
+}
+
+/*.my-carousel{
+	padding-top: 400px;
+}*/
+/*#myCarousel .item { height: 400px; }*/
+
+#myCarousel .item{
+	margin-top: 90px;
+  height: 560px;
+}
+
+#slide1 {
+	background: url('../../images/piaggiogrp_med1.jpg') top center no-repeat;
+}
+
+#slide2 {
+	background: url('../../images/piaggiogrp_med2.jpg') top center no-repeat;
+}
+
+#slide3 {
+	background: url('../../images/piaggiogrp_med3.jpg') top center no-repeat;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+.alert {
+	margin-top: 20px;
+	display: none;
+}
+
+.well {
+	margin: 20px 0;
+}
+
+
+.thumbnails {
+	margin: 20px 0;
+}
+
+.thumbnail {
+	position: relative;
+}
+
+.thumbnail h3 {
+	font-size: 16px;
+	margin: 0 0 10px;
+	line-height: 20px;
+}
+
+.thumbnail .price {
+	font-size: 22px;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	padding: 10px;
+}
+
+.thumbnail .price sup {
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.thumbnail span.glyphicon {
+	margin-right: 5px;
+}
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #ec9893;
+}
+h1 small {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h2 {
+	color: antiquewhite;
+}
+.lead {
+  color: #999;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.panel{
+	background-color: #444;
+	color: #999;
+}
+a.list-group-item .list-group-item-text{
+	color: #ec9893;
+}
+
+.panel-heading {
+	background-color:darkslategrey;
+}
+.panel-title {
+	color: white;
+}
+
+.nav li a:hover {
+	color: #ec9893;
+}
+
+.list-group-item {
+	background-color: #444;
+}
+
+h2,h3,.list-group-item-text ,.btn-link {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+a.list-group-item .list-group-item-heading {
+    color: #d0b5b5;
+}
+
+.btn-block{
+	background-color: initial;
+	border-color: white;
+}
+
+a {
+	color: #ec9893;
+}
+
+a:hover {
+	color: #d0b5b5;
+}
+.nav-tabs li.active a {
+	color: #ec9893;
+	background-color:#444;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+
+	.price {
+		font-size: 14px;
+	}
+
+	.price sup {
+		font-size: 10px;
+	}
+
+/* Landscape phone to portrait tablet */
+
+	/*.item { height: 310px; }*/
+
+	/*#slide1 {
+		background: url('../../images/piaggiogrp_sml1.jpg') top center no-repeat;
+	}
+
+	#slide2 {
+		background: url('../../images/piaggiogrp_sml2.jpg') top center no-repeat;
+	}
+
+	#slide3 {
+		background: url('../../images/piaggiogrp_sml3.jpg') top center no-repeat;
+	}*/
+
+	.car-caption {
+		font-size: 16px;
+	}
+
+	.car-caption h4 {
+		font-size: 22px;
+	}
+
+/* Large desktop */
+
+#myCarousel .item{
+	padding-top: 40px;
+  height: 560px;
+}
+
+	#slide1 {
+		background: url('../../images/piaggiogrp_larg1.jpg') top center no-repeat;
+	}
+
+	#slide2 {
+		background: url('../../images/piaggiogrp_larg2.jpg') top center no-repeat;
+	}
+
+	#slide3 {
+		background: url('../../images/piaggiogrp_larg3.jpg') top center no-repeat;
+	}
